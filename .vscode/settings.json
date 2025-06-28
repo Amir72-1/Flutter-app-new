@@ -1,3 +1,4 @@
 {
-    "dart.flutterSdkPath": "~/Documents/flatter/flutter_windows_3.32.0-stable/flutter"
+    "dart.flutterSdkPath": "~/Documents/flatter/flutter_windows_3.32.0-stable/flutter",
+    "cmake.ignoreCMakeListsMissing": true
 }

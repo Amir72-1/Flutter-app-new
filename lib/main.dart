@@ -1,6 +1,6 @@
+// import 'package:first_app/pages/homepage_widget/profile_page.dart';
 import 'package:flutter/material.dart';
-import 'pages/Homepage.dart';
-
+import 'pages/home_page.dart'; 
 
 void main() {
   runApp(const MyApp());
@@ -9,7 +9,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Poppins',
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(113, 16, 35, 130)),
       ),
+      home: HomePage(), 
       
-      home: Homepage(),
     );
   }
 }
